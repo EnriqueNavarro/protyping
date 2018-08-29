@@ -11,7 +11,7 @@ public class grapplinghook : MonoBehaviour {
     public float distance = 10f;
     public LayerMask mask;
     public float step = 0.02f;
-
+    public Camera cam;
     // Use this for initialization
     void Start()
     {
@@ -36,7 +36,7 @@ public class grapplinghook : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            targetPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            targetPos = cam.ScreenToWorldPoint(Input.mousePosition);
             targetPos.z = 0;
 
             hit = Physics2D.Raycast(transform.position, targetPos - transform.position, distance, mask);

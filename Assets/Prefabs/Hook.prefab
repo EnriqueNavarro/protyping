@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destination: {x: 0, y: 0, z: 0}
   speed: 1
-  distance: 2
+  distance: 1
   node: {fileID: 1962156352878770, guid: 6eb486f6e27b1e74292ebd6eed27b580, type: 2}
   player: {fileID: 0}
   lastNode: {fileID: 0}

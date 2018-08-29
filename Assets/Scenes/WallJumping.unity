@@ -742,7 +742,8 @@ MonoBehaviour:
   distToGround: 0
   dir: {x: 0, y: 0, z: 0}
   angle: {x: 0, y: 0, z: 0, w: 0}
-  angleJumping: 0
+  angleJumping: 1
+  enableDoubleJumping: 0
 --- !u!136 &1080746605
 CapsuleCollider:
   m_ObjectHideFlags: 0

@@ -39,7 +39,7 @@ public class Rope : MonoBehaviour {
         pos *= distance;
         pos += lastNode.transform.position;
         GameObject aux= Instantiate(node, pos, Quaternion.identity);
-        aux.transform.SetParent(transform);
+        //aux.transform.SetParent(transform);
         lastNode.GetComponent<HingeJoint>().connectedBody = aux.GetComponent<Rigidbody>();
         lastNode = aux;
         nodes.Add(lastNode);

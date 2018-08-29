@@ -453,6 +453,8 @@ MonoBehaviour:
   grounded: 1
   distToGround: 0
   angle: {x: 0, y: 0, z: 0, w: 0}
+  fallMultiplier: 2
+  MakeFallFaster: 1
 --- !u!54 &1080746603
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -485,6 +487,8 @@ MonoBehaviour:
   distToGround: 0
   dir: {x: 0, y: 0, z: 0}
   angle: {x: 0, y: 0, z: 0, w: 0}
+  angleJumping: 0
+  enableDoubleJumping: 0
 --- !u!136 &1080746605
 CapsuleCollider:
   m_ObjectHideFlags: 0
